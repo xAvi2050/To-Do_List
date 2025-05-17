@@ -4,7 +4,7 @@ const listContainer = document.getElementById("list-container");
 
 function addTask(){
     if(inputBox.value === ''){
-        alert("Please add your task");
+        alert("Input field is empty!");
     }
     else{
         let newList = document.createElement("li");
